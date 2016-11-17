@@ -22,6 +22,7 @@ Notes on the analysis:
 * The original data contain some variables with names like 'fBodyBody...', which are not mentioned in the original data's documentation. There are descriptions of variables with out the repeated 'Body'. It is assumed that this is an error, and so every variable name like 'fBodyBody...' has been changed to 'fBody...'  
 * By default, R converts non-alphanumeric characters to dots in column names, which leads to some rather hard-to-read names in this data set. To avoid this, runs of non-alphanumeric characters in the variable names are changed to single dots.  
 
+See the documentation in run_analysis.R for details.
 
 [1]: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012  
 [2]: http://vita.had.co.nz/papers/tidy-data.pdf
